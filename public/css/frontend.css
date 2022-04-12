@@ -1,0 +1,149 @@
+/* #cart{
+    position: fixed;
+    top: 0;
+} */
+.img-show {
+    width: 100%;
+    padding: 1em;
+    box-shadow: 0 1px 6px 0 rgba(49, 53, 59, 0.12);
+    border-radius: 0.5em;
+    background-color: #fff;
+    margin-bottom: 1em;
+    height: 45vh;
+}
+#show-product h1 {
+    font-family: "Josefin Sans";
+}
+.show-ket {
+    margin-bottom: 15%;
+}
+.show-ket .d-flex p,
+button {
+    font-family: "Josefin Sans";
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.show-apriori {
+    margin-left: 1em;
+}
+
+#show-apriori-item {
+    margin-bottom: 1em;
+}
+#show-apriori-item .card .card-body {
+    height: 9em;
+}
+.pagination {
+    font-family: "Josefin Sans";
+}
+#logo {
+    font-family: "Josefin Sans";
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+}
+
+.home a {
+    font-size: 1.4em;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.home a i {
+    margin-right: 8px;
+}
+
+.home b {
+    font-size: 1.4em;
+    color: black;
+    font-weight: bold;
+}
+
+.home a:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
+.harga-produk {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.card-rekomendasi {
+    padding: 1em;
+    box-shadow: 0 1px 6px 0 rgba(49, 53, 59, 0.12);
+    border-radius: 0.5em;
+    background-color: #fff;
+}
+
+.card-produk {
+    padding: 0.8em;
+    box-shadow: 0 1px 6px 0 rgba(49, 53, 59, 0.12);
+    border-radius: 0.5em;
+    background-color: #fff;
+    margin-bottom: 1em;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15em;
+    object-fit: cover;
+}
+
+.btn-cat {
+    margin-left: 0.8em;
+    margin-bottom: 1em;
+}
+
+.product-title {
+    font-size: 1em;
+    margin-top: 0.8em;
+    margin-left: 0.8em;
+    margin-right: 0.8em;
+    color: #383838;
+}
+
+a .harga-produk-fe {
+    font-weight: bold;
+}
+
+a .nama-produk-fe {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 160px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.nama-produk-detail {
+    font-size: 2em;
+}
+
+.harga-produk-detail {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0.8em;
+}
+
+.box-login {
+    width: 300px;
+    padding: 1em;
+    box-shadow: 0 1px 6px 0 rgba(49, 53, 59, 0.12);
+    border-radius: 0.5em;
+    background-color: #fff;
+}
+
+.regiter-text {
+    font-size: 0.8em;
+}
+
+.img-thumbnail {
+    width: 100%;
+    height: 8em;
+    object-fit: cover;
+}
