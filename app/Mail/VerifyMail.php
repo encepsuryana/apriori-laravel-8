@@ -31,6 +31,6 @@ class VerifyMail extends Mailable
   */
   public function build()
   {
-    return $this->from('hidroponikapps@gmail.com', 'Dwiki Shop')->subject('Verifikasi Akun')->markdown('emails.verifyAkun')->with('akun', $this->akun);
+    return $this->from('hi.apriori@gmail.com', 'Dwiki Shop')->subject('Verifikasi Akun')->markdown('emails.verifyAkun')->with('akun', $this->akun);
   }
 }

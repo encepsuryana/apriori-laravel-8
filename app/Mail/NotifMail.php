@@ -29,6 +29,6 @@ class NotifMail extends Mailable
      */
     public function build()
     {
-        return $this->from('hidroponikapps@gmail.com', 'Dwiki Shop')->subject('Order Baru [' . $this->data['data'] . ']')->markdown('emails.notifmail')->with('data', $this->data);
+        return $this->from('hi.apriori@gmail.com', 'Dwiki Shop')->subject('Order Baru [' . $this->data['data'] . ']')->markdown('emails.notifmail')->with('data', $this->data);
     }
 }
